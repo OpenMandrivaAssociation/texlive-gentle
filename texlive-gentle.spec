@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /info/gentle
+# catalog-date 2009-01-04 11:16:40 +0100
+# catalog-license other-free
+# catalog-version undef
 Name:		texlive-gentle
 Version:	20090104
 Release:	1
@@ -21,6 +27,7 @@ comprehensive free tutorial on the use of plain TeX.
 %files
 %doc %{_texmfdistdir}/doc/plain/gentle/gentle.pdf
 %doc %{_texmfdistdir}/doc/plain/gentle/gentle.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -31,3 +38,5 @@ comprehensive free tutorial on the use of plain TeX.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
