@@ -16,8 +16,6 @@ Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/gentle.doc.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
-Conflicts:	texlive-texmf <= 20110705-3
-Conflicts:	texlive-doc <= 20110705-3
 
 %description
 The "Gentle Introduction" is the longest-established
@@ -27,7 +25,6 @@ comprehensive free tutorial on the use of plain TeX.
 %files
 %doc %{_texmfdistdir}/doc/plain/gentle/gentle.pdf
 %doc %{_texmfdistdir}/doc/plain/gentle/gentle.tex
-%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -38,5 +35,3 @@ comprehensive free tutorial on the use of plain TeX.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
-mkdir -p %{buildroot}%{_tlpkgobjdir}
-cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
