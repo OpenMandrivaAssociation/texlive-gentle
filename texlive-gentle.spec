@@ -35,3 +35,17 @@ comprehensive free tutorial on the use of plain TeX.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20090104-2
++ Revision: 752258
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20090104-1
++ Revision: 718534
+- texlive-gentle
+- texlive-gentle
+- texlive-gentle
+- texlive-gentle
+
