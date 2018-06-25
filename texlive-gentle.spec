@@ -5,7 +5,7 @@
 # catalog-license other-free
 # catalog-version undef
 Name:		texlive-gentle
-Version:	20170414
+Version:	20180303
 Release:	1
 Summary:	A Gentle Introduction to TeX
 Group:		Publishing
