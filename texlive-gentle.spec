@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-gentle
 Version:	20180303
-Release:	1
+Release:	2
 Summary:	A Gentle Introduction to TeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/gentle
