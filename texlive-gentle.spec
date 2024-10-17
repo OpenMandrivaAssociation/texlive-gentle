@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	A Gentle Introduction to TeX
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/info/gentle
+URL:		https://www.ctan.org/tex-archive/info/gentle
 License:	OTHER-FREE
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/gentle.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/gentle.doc.r%{version}.tar.xz
