@@ -1,6 +1,6 @@
 Name:		texlive-gentle
 Version:	15878
-Release:	2
+Release:	3
 Summary:	A Gentle Introduction to TeX
 Group:		Publishing
 URL:		https://www.ctan.org/tex-archive/info/gentle
